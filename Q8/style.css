@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    line-height: 2em;
+    font-weight: 700;
+}
+
+.first-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 5%;
+    gap: 3em;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+
+.box {
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px rgb(216, 216, 216);
+    text-align: center;
+}
+
+.name {
+    font-weight: 600;
+    line-height: 2em;
+}
+
+.logo img{
+    width: 50%;
+}
